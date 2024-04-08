@@ -1017,7 +1017,7 @@ At the conclusion of this lab you will have successfully created new virtual dis
    c. Change ownership of the mount directory to your user
    d. Write a file named `helloworld.txt` to the newly mounted directory
 
-7. Using Ubuntu Server, enable an additional host-only network interface and SSH from your Host OS into this system
+7. Using Ubuntu Server, enable an additional host-only network interface and SSH from your Host OS into this system. (Ensure that you configure it in the netplan config)
 
     a. Create 3 virtual disks to attach to the virtual machine in VirtualBox
     b. Install the `zfsutils-linux` package for the zfs tools
