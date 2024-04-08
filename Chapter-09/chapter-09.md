@@ -843,7 +843,7 @@ Assumptions:
 
 1) The next questions require some setup:
    i. You need two virtual machines for this part: One Ubuntu based and one Fedora based
-   i. You will need to modify the Network settings to add a **Host-Only Network Interface** in VirtualBox to get a an IP address only accessible on your computer
+   i. You will need to modify the Network settings to add a **Host-Only Network Interface** in VirtualBox to get a an IP address only accessible on your       computer(You will need to manually configure the Host-Only Interface for Ubuntu Server after enabling it in VirtualBox as Ubuntu Server uses             netplan to manage its network interfaces)
    i. Install **openssh-server** on Ubuntu (Server) via apt and Fedora via dnf
    i. On Fedora only, you will need to issue two additional commands to start the ssh server: `sudo systemctl enable sshd` and `sudo systemctl start sshd`
 
